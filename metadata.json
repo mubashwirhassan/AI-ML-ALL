@@ -1,0 +1,6 @@
+{
+  "name": "ML Path",
+  "description": "A complete, modern, step-by-step educational platform for learning Machine Learning from absolute beginner to advanced level with bilingual Bengali and English support, interactive quizzes, and AI ML Mentor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

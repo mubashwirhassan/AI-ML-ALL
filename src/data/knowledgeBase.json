@@ -1,0 +1,639 @@
+[
+  {
+    "id": "kb-what-is-ai",
+    "topic": "Artificial Intelligence (AI)",
+    "keywords": ["ai", "artificial intelligence", "কৃত্রিম বুদ্ধিমত্তা", "what is ai", "কী", "ai কি"],
+    "questionPatterns": [
+      "what is ai",
+      "what is artificial intelligence",
+      "ai ki",
+      "ai কাকে বলে",
+      "কৃত্রিম বুদ্ধিমত্তা কি"
+    ],
+    "shortAnswer": {
+      "en": "Artificial Intelligence (AI) is the broader science of creating smart machines capable of performing tasks that typically require human intelligence, such as visual perception, reasoning, and decision-making.",
+      "bn": "আর্টিফিশিয়াল ইন্টেলিজেন্স (AI) হলো কম্পিউটার বিজ্ঞানের এমন একটি শাখা, যার মাধ্যমে এমন বুদ্ধিমান সিস্টেম তৈরি করা হয় যা মানুষের মতো চিন্তা, যুক্তিতর্ক, সিদ্ধান্ত গ্রহণ এবং সমস্যা সমাধান করতে পারে।"
+    },
+    "detailedAnswer": {
+      "en": "AI encompasses everything from rule-based systems to advanced deep learning. It allows machines to sense their environment, comprehend information, learn from experience, and take autonomous actions. While traditional software only executes explicit if-else rules written by programmers, AI systems can adapt to new circumstances.",
+      "bn": "AI-এর মধ্যে সাধারণ নিয়মভিত্তিক লজিক থেকে শুরু করে গভীর নিউরাল নেটওয়ার্ক পর্যন্ত সবকিছু অন্তর্ভুক্ত। সাধারণ সফটওয়্যার শুধু প্রোগ্রামারের লেখা সুনির্দিষ্ট 'if-else' নিয়ম পালন করে, কিন্তু AI অভিজ্ঞতা ও ডেটা থেকে শিখে নতুন পরিস্থিতিতে সঠিক সিদ্ধান্ত নিতে পারে।"
+    },
+    "example": {
+      "en": "Self-driving cars navigating traffic, chess-playing engines like AlphaZero, and voice assistants like Siri and Google Assistant.",
+      "bn": "অটোনোমাস সেলফ-ড্রাইভিং কার, গুগলের ভয়েস অ্যাসিস্ট্যান্ট, এবং দাবা খেলার রোবট আলফাজিরো।"
+    },
+    "relatedTopics": ["Machine Learning", "Deep Learning", "Data Science"],
+    "recommendedLessonId": "l0-what-is-ai"
+  },
+  {
+    "id": "kb-what-is-ml",
+    "topic": "Machine Learning (ML)",
+    "keywords": ["machine learning", "ml", "মেশিন লার্নিং", "what is ml", "how ml works", "ml কি"],
+    "questionPatterns": [
+      "what is machine learning",
+      "what is ml",
+      "ml ki",
+      "how computers learn",
+      "মেশিন লার্নিং কি",
+      "কম্পিউটার কিভাবে শেখে"
+    ],
+    "shortAnswer": {
+      "en": "Machine Learning is a subset of AI where computers learn from historical data to identify patterns and make predictions without being explicitly programmed for every scenario.",
+      "bn": "মেশিন লার্নিং (ML) হলো AI-এর একটি শাখা, যেখানে কম্পিউটারকে প্রতিটি নিয়মের জন্য আলাদা কোড না লিখে, প্রচুর ডেটা ও উদাহরণের মাধ্যমে প্যাটার্ন খুঁজে নিয়ে নিজে নিজে শিখতে শেখানো হয়।"
+    },
+    "detailedAnswer": {
+      "en": "Arthur Samuel described ML as 'the field of study that gives computers the ability to learn without being explicitly programmed'. In traditional programming: Data + Rules = Answers. In Machine Learning: Data + Answers = Rules (Model)!",
+      "bn": "প্রথাগত প্রোগ্রামিংয়ে ডেটা এবং মানুষের লেখা সুনির্দিষ্ট রুল দিলে কম্পিউটার উত্তর দেয় (Data + Rules = Answers)। কিন্তু মেশিন লার্নিংয়ে আমরা কম্পিউটারকে ইনপুট ডেটা এবং সঠিক উত্তর দিই, আর কম্পিউটার স্বয়ংক্রিয়ভাবে ভেতরের ফর্মুলা বা রুলটি বের করে নেয় (Data + Answers = Rules)!"
+    },
+    "example": {
+      "en": "Email spam filtering: Instead of writing 10,000 keyword checks, the ML model examines millions of past spam and legitimate emails to detect spam patterns automatically.",
+      "bn": "ইমেইল স্প্যাম ফিল্টারিং: লক্ষ লক্ষ পুরনো ইমেইল দেখে সিস্টেম স্বয়ংক্রিয়ভাবে বুঝে নেয় কোন ইমেইলটি স্প্যাম আর কোনটি প্রয়োজনীয়।"
+    },
+    "relatedTopics": ["Supervised Learning", "Overfitting", "Linear Regression"],
+    "recommendedLessonId": "l0-what-is-ml"
+  },
+  {
+    "id": "kb-supervised-learning",
+    "topic": "Supervised Learning",
+    "keywords": ["supervised", "supervised learning", "সুপারভাইজড লার্নিং", "labeled data", "লেবেলযুক্ত ডেটা"],
+    "questionPatterns": [
+      "what is supervised learning",
+      "supervised learning ki",
+      "explain supervised learning",
+      "সুপারভাইজড লার্নিং কি"
+    ],
+    "shortAnswer": {
+      "en": "Supervised learning trains models on labeled datasets where both input features (X) and target answers (y) are provided, teaching the algorithm to predict labels on new, unseen data.",
+      "bn": "সুপারভাইজড লার্নিং হলো এমন এক ধরনের প্রশিক্ষণ যেখানে মডেলকে ইনপুট (X) এবং তার সঠিক উত্তর বা লেবেল (y) দুটোই দেওয়া হয়, যাতে ভবিষ্যতে নতুন ডেটা দিলে সে সঠিক উত্তর অনুমান করতে পারে।"
+    },
+    "detailedAnswer": {
+      "en": "It is divided into Regression (predicting continuous continuous numbers like house price or temperature) and Classification (predicting discrete categorical outcomes like Yes/No, Cat/Dog, or Fraud/Legit). Common algorithms include Linear Regression, Logistic Regression, Decision Trees, and Random Forests.",
+      "bn": "সুপারভাইজড লার্নিং প্রধানত দুটি ভাগে বিভক্ত: রিগ্রেশন (যেমন: বাড়ি বিক্রির দাম বা তাপমাত্রা অনুমান করা - যেখানে আউটপুট একটি ধারাবাহিক সংখ্যা) এবং ক্লাসিফিকেশন (যেমন: ইমেইল স্প্যাম কি না - যেখানে আউটপুট ক্যাটাগরি)।"
+    },
+    "example": {
+      "en": "Predicting whether a medical tumor is malignant or benign based on patient biopsy measurements and known past outcomes.",
+      "bn": "টিউমারের সাইজ এবং লক্ষণ দেখে পূর্বে নিশ্চিত হওয়া রোগীদের ডেটার সাথে মিলিয়ে রোগ নির্ণয় করা।"
+    },
+    "relatedTopics": ["Unsupervised Learning", "Linear Regression", "Logistic Regression"],
+    "recommendedLessonId": "l4-supervised-learning"
+  },
+  {
+    "id": "kb-unsupervised-learning",
+    "topic": "Unsupervised Learning",
+    "keywords": ["unsupervised", "unsupervised learning", "আনসুপারভাইজড", "clustering", "ক্লাস্টারিং", "pca"],
+    "questionPatterns": [
+      "what is unsupervised learning",
+      "unsupervised learning ki",
+      "clustering ki",
+      "আনসুপারভাইজড লার্নিং কি"
+    ],
+    "shortAnswer": {
+      "en": "Unsupervised learning discovers hidden patterns, groupings, and structures in unlabeled datasets where no target answers are provided.",
+      "bn": "আনসুপারভাইজড লার্নিংয়ে ডেটায় কোনো আগে থেকে ঠিক করা উত্তর বা লেবেল থাকে না। অ্যালগরিদম নিজে নিজেই ডেটার মধ্যের লুকায়িত সাদৃশ্য বা প্যাটার্ন খুঁজে দল তৈরি করে।"
+    },
+    "detailedAnswer": {
+      "en": "Popular tasks include Clustering (e.g., K-Means grouping customers by behavior), Dimensionality Reduction (e.g., PCA compressing hundreds of dimensions into informative axes), and Anomaly Detection (identifying unusual server or credit card behavior).",
+      "bn": "এর প্রধান কাজগুলোর মধ্যে রয়েছে ক্লাস্টারিং (যেমন: গ্রাহকদের কেনাকাটার স্বভাব অনুযায়ী দল ভাগ করা - K-Means), ডাইমেনশনালিটি রিডাকশন (যেমন: PCA) এবং অস্বাভাবিক কার্যকলাপ শনাক্তকরণ (অ্যানোমালি ডিটেকশন)।"
+    },
+    "example": {
+      "en": "Netflix clustering viewers with similar cinematic tastes to organize personalized recommendation feeds without explicit viewer surveys.",
+      "bn": "ই-কমার্স ওয়েবসাইটে ক্রেতাদের কেনাকাটার স্বভাব বিশ্লেষণ করে স্বয়ংক্রিয়ভাবে ভিআইপি, সাধারণ ও ডিসকাউন্ট খোঁজা গ্রাহক হিসেবে গ্রুপ করা।"
+    },
+    "relatedTopics": ["K-Means", "PCA", "Supervised Learning"],
+    "recommendedLessonId": "l4-unsupervised-learning"
+  },
+  {
+    "id": "kb-reinforcement-learning",
+    "topic": "Reinforcement Learning (RL)",
+    "keywords": ["reinforcement learning", "rl", "রিইনফোর্সমেন্ট", "agent", "reward", "রিওয়ার্ড"],
+    "questionPatterns": [
+      "what is reinforcement learning",
+      "reinforcement learning ki",
+      "rl ki",
+      "রিইনফোর্সমেন্ট লার্নিং কি"
+    ],
+    "shortAnswer": {
+      "en": "Reinforcement Learning trains an autonomous agent to make decisions in an environment by receiving numerical rewards for good actions and penalties for mistakes.",
+      "bn": "রিইনফোর্সমেন্ট লার্নিং হলো ট্রায়াল অ্যান্ড এরর (ভুল থেকে শেখা) ভিত্তিক পদ্ধতি, যেখানে একটি 'এজেন্ট' পরিবেশের সাথে মিথস্ক্রিয়া করে ভালো কাজের জন্য রিওয়ার্ড (পুরস্কার) এবং ভুলের জন্য পেনাল্টি পেয়ে সেরা নীতি শেখে।"
+    },
+    "detailedAnswer": {
+      "en": "Unlike supervised learning with static examples, RL involves continuous interaction: Agent -> Action -> Environment -> Next State + Reward. It is the foundation for autonomous robotics, video game bots, and modern LLM alignment via RLHF (Reinforcement Learning from Human Feedback).",
+      "bn": "যেমন একটি ছোট বাচ্চাকে হাঁটা শেখার সময় পড়ে গেলে কষ্ট ও ভারসাম্য ধরে রাখলে প্রশংসা করা হয়, তেমনি অ্যালগরিদমও তার উদ্দেশ্য অর্জনে সর্বোচ্চ রিওয়ার্ড পাওয়ার পথটি শেখে।"
+    },
+    "example": {
+      "en": "DeepMind's AlphaGo defeating world champion Go players, and OpenAI training robots to manipulate objects in 3D physics engines.",
+      "bn": "ভিডিও গেমে স্বয়ংক্রিয় রোবট প্লেয়ার তৈরি এবং রোবটের ভারসাম্য ধরে রেখে হাঁটার প্রশিক্ষণ।"
+    },
+    "relatedTopics": ["Supervised Learning", "Deep Learning"],
+    "recommendedLessonId": "l0-ai-vs-ml-vs-dl"
+  },
+  {
+    "id": "kb-overfitting",
+    "topic": "Overfitting (ওভারফিটিং)",
+    "keywords": ["overfitting", "overfit", "ওভারফিটিং", "high variance", "মেমোরাইজেশন", "what is overfitting"],
+    "questionPatterns": [
+      "what is overfitting",
+      "how to fix overfitting",
+      "overfitting ki",
+      "overfitting কেন হয়",
+      "ওভারফিটিং কি এবং কিভাবে সমাধান করব"
+    ],
+    "shortAnswer": {
+      "en": "Overfitting happens when a model memorizes training data including random noise, achieving near 100% training accuracy but failing drastically on new, real-world test data.",
+      "bn": "ওভারফিটিং হলো যখন কোনো মডেল শেখার বদলে ট্রেনিং ডেটা অন্ধের মতো মুখস্থ করে ফেলে। ফলে ট্রেনিং ডেটায় চমৎকার ফল দেখায় কিন্তু নতুন কোনো ডেটা দিলেই ভুল উত্তর দেয়।"
+    },
+    "detailedAnswer": {
+      "en": "Analogy: A student who memorizes every question and punctuation mark of past exam papers word-for-word. When the actual exam alters the numbers slightly, the student fails. Solutions: 1) Collect more training data; 2) Regularization (L1/L2, Dropout); 3) Prune tree depth; 4) Cross-validation; 5) Early stopping.",
+      "bn": "সহজ উদাহরণ: একজন ছাত্র পরীক্ষার গাইড বইয়ের সব অঙ্ক হুবহু মুখস্থ করে ফেলল। কিন্তু পরীক্ষায় সংখ্যা সামান্য বদলে দিলে সে আর সমাধান করতে পারে না। প্রতিকার: ১) আরও ডেটা সংগ্রহ করা, ২) রেগুলারাইজেশন (L1/L2 বা Dropout), ৩) ডিসিশন ট্রির গভীরতা কমানো, ৪) ক্রস-ভ্যালিডেশন ব্যবহার করা।"
+    },
+    "example": {
+      "en": "A polynomial regression line squiggling wildly through every outlier point instead of capturing the underlying simple linear trend.",
+      "bn": "একটি রিগ্রেশন লাইন সাধারণ ট্রেন্ড না ধরে প্রতিটি ডেটা পয়েন্ট ছোঁয়ার জন্য আঁকাবাঁকা হয়ে পাগলের মতো এঁকেবেঁকে যাওয়া।"
+    },
+    "relatedTopics": ["Underfitting", "Bias-Variance Tradeoff", "Regularization", "Cross-Validation"],
+    "recommendedLessonId": "l6-overfitting-underfitting"
+  },
+  {
+    "id": "kb-underfitting",
+    "topic": "Underfitting (আন্ডারফিটিং)",
+    "keywords": ["underfitting", "underfit", "আন্ডারফিটিং", "high bias", "what is underfitting"],
+    "questionPatterns": [
+      "what is underfitting",
+      "underfitting ki",
+      "difference between overfitting and underfitting",
+      "আন্ডারফিটিং কি"
+    ],
+    "shortAnswer": {
+      "en": "Underfitting happens when a model is too simple to capture the underlying pattern of the data, performing poorly on both training and testing datasets.",
+      "bn": "আন্ডারফিটিং হলো যখন মডেলটি প্রয়োজনের তুলনায় অনেক বেশি সহজ-সরল হওয়ায় ডেটার আসল প্যাটার্ন বা নিয়মটাই ধরতে পারে না। ফলে ট্রেনিং এবং টেস্ট উভয় ডেটাতেই খারাপ পারফর্ম করে।"
+    },
+    "detailedAnswer": {
+      "en": "Analogy: Trying to fit a rigid straight wooden stick over a curved horseshoe. High bias causes the model to oversimplify reality. Solutions: 1) Increase model complexity; 2) Add more relevant features; 3) Reduce regularization penalty; 4) Train for more epochs.",
+      "bn": "সহজ উদাহরণ: একজন ছাত্র পরীক্ষার আগের রাতে বইয়ের সূচিপত্র ছাড়া কিছুই পড়ল না; ফলে সে সহজ প্রশ্নেরও উত্তর দিতে পারে না। প্রতিকার: আরও শক্তিশালী অ্যালগরিদম ব্যবহার করা, নতুন দরকারি ফিচার যোগ করা, এবং রেগুলারাইজেশনের পরিমাণ কমানো।"
+    },
+    "example": {
+      "en": "Using a straight linear regression line to model a complex cyclic stock market wave.",
+      "bn": "একটি জটিল বক্ররেখা সম্বলিত ডেটায় সোজা সরলরেখা টেনে অনুমান করার ব্যর্থ চেষ্টা করা।"
+    },
+    "relatedTopics": ["Overfitting", "Bias-Variance Tradeoff"],
+    "recommendedLessonId": "l6-overfitting-underfitting"
+  },
+  {
+    "id": "kb-bias-variance",
+    "topic": "Bias-Variance Tradeoff",
+    "keywords": ["bias", "variance", "tradeoff", "বায়াস", "ভ্যারিয়েন্স", "বায়াস ভ্যারিয়েন্স ট্রেডঅফ"],
+    "questionPatterns": [
+      "what is bias and variance",
+      "explain bias variance tradeoff",
+      "bias variance tradeoff ki",
+      "বায়াস ও ভ্যারিয়েন্স কি"
+    ],
+    "shortAnswer": {
+      "en": "Bias is error from erroneous assumptions in the learning algorithm (underfitting), while Variance is error from sensitivity to small fluctuations in training data (overfitting). The tradeoff seeks the optimal sweet spot minimizing total error.",
+      "bn": "বায়াস (Bias) হলো ভুল পূর্বধারণাজনিত ত্রুটি যা মডেলকে অতিরিক্ত সরল করে ফেলে (আন্ডারফিটিং)। আর ভ্যারিয়েন্স (Variance) হলো ট্রেনিং ডেটার সামান্য ওঠানামায় অতিরিক্ত স্পর্শকাতরতা (ওভারফিটিং)। এই দুয়ের সুষম ভারসাম্যই হলো ট্রেডঅফ।"
+    },
+    "detailedAnswer": {
+      "en": "Total Error = (Bias)^2 + Variance + Irreducible Error. As model complexity increases, bias drops while variance rises. The goal of machine learning engineering is finding the model complexity that minimizes the combined U-shaped test error curve.",
+      "bn": "মডেল যত জটিল হবে, বায়াস তত কমবে কিন্তু ভ্যারিয়েন্স তত বাড়বে। লক্ষ্য হলো এমন একটি পয়েন্ট বেছে নেওয়া যেখানে উভয়ের যোগফল (টোটাল এরর) সর্বনিম্ন থাকে।"
+    },
+    "example": {
+      "en": "Dartboard analogy: High bias = darts cluster far from the bullseye. High variance = darts scatter erratically all over the board. Low bias + low variance = all darts tightly hit the center.",
+      "bn": "টার্গেট বোর্ডে তীর ছোঁড়ার উদাহরণ: বায়াস বেশি মানে সব তীর লক্ষ্য থেকে দূরে পড়ছে। ভ্যারিয়েন্স বেশি মানে তীরগুলো ইতস্তত ছড়িয়ে ছিটিয়ে পড়ছে। আদর্শ মডেলের লক্ষ্য লক্ষ্যের ঠিক কেন্দ্রবিন্দুতে গুচ্ছাকারে তীর ফেলা।"
+    },
+    "relatedTopics": ["Overfitting", "Cross-Validation", "Regularization"],
+    "recommendedLessonId": "l6-bias-variance"
+  },
+  {
+    "id": "kb-linear-regression",
+    "topic": "Linear Regression (লিনিয়ার রিগ্রেশন)",
+    "keywords": ["linear regression", "লিনিয়ার রিগ্রেশন", "regression", "y = mx + c", "ordinary least squares"],
+    "questionPatterns": [
+      "what is linear regression",
+      "how does linear regression work",
+      "linear regression ki",
+      "লিনিয়ার রিগ্রেশন কি"
+    ],
+    "shortAnswer": {
+      "en": "Linear Regression models the relationship between a dependent target variable (y) and one or more independent predictor features (X) by fitting a straight line equation: y = wx + b.",
+      "bn": "লিনিয়ার রিগ্রেশন হলো একটি পরিসংখ্যানভিত্তিক সুপারভাইজড অ্যালগরিদম, যা ইনপুট ও আউটপুটের মধ্যে একটি সরলরৈখিক সম্পর্ক (y = mx + c) স্থাপন করে ধারাবাহিক মান অনুমান করে।"
+    },
+    "detailedAnswer": {
+      "en": "It calculates optimal weights (w) and intercept (b) by minimizing the Mean Squared Error (MSE) using Ordinary Least Squares (OLS) or Gradient Descent. It assumes linearity, homoscedasticity, and no severe multicollinearity between predictors.",
+      "bn": "মডেলটি ডেটা পয়েন্টগুলোর মধ্যে এমন একটি সোজা লাইন টানে, যার থেকে প্রতিটি পয়েন্টের উলম্ব দূরত্বের বর্গের গড় (Mean Squared Error - MSE) সর্বনিম্ন হয়।"
+    },
+    "example": {
+      "en": "Predicting a house's market price based on its square footage: Price = 3500 * (SqFt) + 50000.",
+      "bn": "বাড়ির আয়তন (বর্গফুট) বাড়লে তার দাম কত হবে তা সোজা রেখা টেনে অনুমান করা।"
+    },
+    "relatedTopics": ["Logistic Regression", "Gradient Descent", "Mean Squared Error"],
+    "recommendedLessonId": "l4-linear-regression"
+  },
+  {
+    "id": "kb-logistic-regression",
+    "topic": "Logistic Regression (লজিস্টিক রিগ্রেশন)",
+    "keywords": ["logistic regression", "লজিস্টিক রিগ্রেশন", "sigmoid", "classification", "probability"],
+    "questionPatterns": [
+      "what is logistic regression",
+      "why is it called regression if it classifies",
+      "logistic regression ki",
+      "লজিস্টিক রিগ্রেশন কি"
+    ],
+    "shortAnswer": {
+      "en": "Despite its name, Logistic Regression is a fundamental classification algorithm that models the probability of a categorical outcome (like 0 or 1) using the Sigmoid curve: σ(z) = 1 / (1 + e^-z).",
+      "bn": "নামে 'রিগ্রেশন' থাকলেও এটি মূলত একটি ক্লাসিফিকেশন অ্যালগরিদম। এটি ইনপুট ডেটাকে সিগময়েড (Sigmoid) ফাংশনের মাধ্যমে ০ থেকে ১ এর মধ্যবর্তী সম্ভাবনায় (Probability) রূপান্তর করে হ্যাঁ/না সিদ্ধান্ত নেয়।"
+    },
+    "detailedAnswer": {
+      "en": "It wraps a linear combination of inputs (z = wx + b) into the Sigmoid function, squeezing all outputs between 0 and 1. If probability >= 0.5, class is predicted as 1, else 0. It is optimized using Log-Loss (Binary Cross-Entropy).",
+      "bn": "এটি বাইনারি লস ফাংশন (Log-Loss) ব্যবহার করে অপটিমাইজ করা হয়। যদি আউটপুট সম্ভাবনা ০.৫০ এর বেশি হয় তবে ক্লাস ১ (যেমন: স্প্যাম), আর কম হলে ক্লাস ০ ধরা হয়।"
+    },
+    "example": {
+      "en": "Predicting whether a bank loan applicant will default (1) or pay on time (0) based on credit score, debt ratio, and annual income.",
+      "bn": "রোগীর ব্লাড প্রেসার ও কোলেস্টেরল দেখে হার্ট অ্যাটাকের ঝুঁকি আছে (১) কি নেই (০) তা নির্ণয় করা।"
+    },
+    "relatedTopics": ["Linear Regression", "ROC-AUC", "Cross-Entropy"],
+    "recommendedLessonId": "l4-logistic-regression"
+  },
+  {
+    "id": "kb-decision-tree",
+    "topic": "Decision Tree (ডিসিশন ট্রি)",
+    "keywords": ["decision tree", "ডিসিশন ট্রি", "gini", "entropy", "information gain"],
+    "questionPatterns": [
+      "what is decision tree",
+      "how does decision tree work",
+      "decision tree ki",
+      "ডিসিশন ট্রি কি"
+    ],
+    "shortAnswer": {
+      "en": "A Decision Tree is an intuitive flow-chart model that breaks down decisions into a series of hierarchical questions (if-else conditions) based on feature values to classify or predict outcomes.",
+      "bn": "ডিসিশন ট্রি হলো একটি ফ্লো-চার্ট সদৃশ মডেল, যা ডেটার বিভিন্ন বৈশিষ্ট্যের ওপর ভিত্তি করে ধাপে ধাপে প্রশ্ন (যদি/তবে শর্ত) তৈরি করে চূড়ান্ত সিদ্ধান্তে পৌঁছায়।"
+    },
+    "detailedAnswer": {
+      "en": "At each node, the tree chooses the split that maximizes purity, measured by Gini Impurity or Information Gain (Entropy). While highly interpretable, unconstrained decision trees are notorious for high variance (overfitting).",
+      "bn": "প্রতিটি নোডে ট্রি এমনভাবে ডেটা ভাগ করে যাতে উপদলগুলো সবচেয়ে বিশুদ্ধ (Pure) হয়। এর জন্য জিনি ইমপিউরিটি (Gini Impurity) বা এন্ট্রপি (Entropy) পরিমাপ করা হয়।"
+    },
+    "example": {
+      "en": "Deciding whether to play tennis outside: If Outlook == Sunny AND Humidity < 70% -> Play: Yes.",
+      "bn": "আবহাওয়া দেখে বাইরে খেলতে যাওয়া হবে কি না: যদি বৃষ্টি হয় -> না; যদি রোদ থাকে এবং আর্দ্রতা কম থাকে -> হ্যাঁ।"
+    },
+    "relatedTopics": ["Random Forest", "Gradient Boosting", "Overfitting"],
+    "recommendedLessonId": "l4-decision-tree"
+  },
+  {
+    "id": "kb-random-forest",
+    "topic": "Random Forest (র‍্যান্ডম ফরেস্ট)",
+    "keywords": ["random forest", "র‍্যান্ডম ফরেস্ট", "bagging", "ensemble", "bootstrap aggregation"],
+    "questionPatterns": [
+      "what is random forest",
+      "how does random forest work",
+      "difference between decision tree and random forest",
+      "র‍্যান্ডম ফরেস্ট কি"
+    ],
+    "shortAnswer": {
+      "en": "Random Forest is an ensemble learning method that builds multiple independent decision trees on bootstrapped random subsets of data and features, aggregating their votes to produce resilient predictions.",
+      "bn": "র‍্যান্ডম ফরেস্ট হলো একটি এনসেম্বল অ্যালগরিদম, যা শত শত ডিসিশন ট্রির একটি 'জঙ্গল' তৈরি করে। প্রতিটি ট্রি আলাদা আলাদা ডেটা ও বৈশিষ্ট্যে শেখে এবং তাদের সম্মিলিত ভোটের ভিত্তিতে চূড়ান্ত সিদ্ধান্ত নেওয়া হয়।"
+    },
+    "detailedAnswer": {
+      "en": "It solves the single decision tree's overfitting weakness using Bagging (Bootstrap Aggregating) + Feature Bagging. Wisdom of the crowd ensures individual tree errors cancel out, resulting in lower variance and superior generalization.",
+      "bn": "একাধিক বিশেষজ্ঞের পরামর্শ নিয়ে যেমন সেরা সিদ্ধান্ত নেওয়া যায়, তেমনি অনেকগুলো ট্রির গড় বা মেজরিটি ভোট নেওয়ার ফলে মডেলের ভুল ও ওভারফিটিং অনেক কমে যায়।"
+    },
+    "example": {
+      "en": "Medical diagnosis: 100 diverse virtual doctor trees review patient symptoms; if 87 vote benign, the diagnosis is securely classified as benign.",
+      "bn": "ক্রেডিট কার্ড জালিয়াতি শনাক্তকরণে শত শত ট্রির সম্মিলিত ভোট নিয়ে নিশ্চিত হওয়া।"
+    },
+    "relatedTopics": ["Decision Tree", "Ensemble Learning", "XGBoost"],
+    "recommendedLessonId": "l4-random-forest"
+  },
+  {
+    "id": "kb-knn",
+    "topic": "K-Nearest Neighbors (KNN)",
+    "keywords": ["knn", "k-nearest neighbors", "k নিকটতম প্রতিবেশী", "euclidean distance", "distance metric"],
+    "questionPatterns": [
+      "what is knn",
+      "how does knn work",
+      "knn ki",
+      "k-nearest neighbors কি"
+    ],
+    "shortAnswer": {
+      "en": "KNN is a non-parametric, lazy learning algorithm that classifies a new sample based on the majority vote of its 'K' closest neighbors measured by geometric distance (e.g., Euclidean distance).",
+      "bn": "KNN হলো এমন একটি সহজ অ্যালগরিদম যা কোনো নতুন ডেটা পয়েন্টের শ্রেণি নির্ধারণ করতে তার সবচেয়ে কাছের 'K' সংখ্যক প্রতিবেশীর ক্যাটাগরি দেখে এবং সংখ্যাগরিষ্ঠের ভোট অনুযায়ী সিদ্ধান্ত নেয়।"
+    },
+    "detailedAnswer": {
+      "en": "Proverb: 'Tell me who your neighbors are, and I will tell you who you are'. It has no explicit training phase; it stores all historical points and computes distance at inference time. Sensitive to feature scaling, so StandardScaler is mandatory!",
+      "bn": "বাংলা প্রবাদ: 'সঙ্গ দেখে মানুষ চেনা যায়'। KNN-এ আগে থেকে কোনো জটিল ট্রেনিং হয় না; ইনফারেন্সের সময় ইউক্লিডিয়ান দূরত্ব মেপে সবচেয়ে কাছের K-জন প্রতিবেশীকে খোঁজা হয়। এজন্য ফিচার স্কেলিং করা আবশ্যক।"
+    },
+    "example": {
+      "en": "Classifying an unknown fruit: If its 5 closest neighbors in weight and sweetness space are 4 apples and 1 orange, it is classified as an apple.",
+      "bn": "একটি অজানা ফলের ওজন ও মিষ্টতার পরিমাপের সবচেয়ে কাছের ৫টি ফলের ৪টি যদি আপেল হয়, তবে সেটিকে আপেল বলা হয়।"
+    },
+    "relatedTopics": ["Feature Scaling", "Distance Metrics", "K-Means"],
+    "recommendedLessonId": "l4-knn"
+  },
+  {
+    "id": "kb-svm",
+    "topic": "Support Vector Machines (SVM)",
+    "keywords": ["svm", "support vector machines", "সাপোর্ট ভেক্টর মেশিন", "hyperplane", "margin", "kernel trick"],
+    "questionPatterns": [
+      "what is svm",
+      "how does svm work",
+      "what is kernel trick",
+      "svm ki",
+      "সাপোর্ট ভেক্টর মেশিন কি"
+    ],
+    "shortAnswer": {
+      "en": "SVM is a powerful classifier that finds the optimal hyperplane maximizing the geometric margin (boundary cushion) between the nearest data points of distinct classes.",
+      "bn": "SVM হলো একটি শক্তিশালী অ্যালগরিদম যা দুটি ভিন্ন শ্রেণির ডেটা পয়েন্টের মাঝখানে এমন একটি সর্বোত্তম বিভাজন রেখা (Hyperplane) টানে যার মার্জিন বা ফাঁকা জায়গা সর্বোচ্চ হয়।"
+    },
+    "detailedAnswer": {
+      "en": "The critical boundary points closest to the hyperplane are called 'Support Vectors'. If data is linearly inseparable in low dimensions, SVM uses the 'Kernel Trick' (e.g., RBF, Polynomial) to project data into higher-dimensional space where clean linear separation is possible.",
+      "bn": "রেখার সবচেয়ে কাছে থাকা পয়েন্টগুলোকে 'সাপোর্ট ভেক্টর' বলা হয়। ডেটা যদি সরলরেখা দিয়ে ভাগ না করা যায়, তবে SVM 'কার্নেল ট্রিক' (Kernel Trick) ব্যবহার করে ডেটাকে উচ্চতর মাত্রায় নিয়ে সহজেই আলাদা করে।"
+    },
+    "example": {
+      "en": "High-accuracy handwriting digit recognition and genetic microarray cancer subtype classification with many dimensions.",
+      "bn": "হাতের লেখা সংখ্যা চেনা এবং জিনোমিক ডেটা থেকে রোগের নির্ভুল ক্লাসিফিকেশন।"
+    },
+    "relatedTopics": ["Logistic Regression", "Margin", "Kernels"],
+    "recommendedLessonId": "l4-svm"
+  },
+  {
+    "id": "kb-kmeans",
+    "topic": "K-Means Clustering",
+    "keywords": ["kmeans", "k-means", "কে-মিন্স", "clustering", "centroids", "wcss", "elbow method"],
+    "questionPatterns": [
+      "what is k-means",
+      "how does kmeans work",
+      "what is elbow method",
+      "kmeans ki",
+      "k-means ক্লাস্টারিং কি"
+    ],
+    "shortAnswer": {
+      "en": "K-Means is an unsupervised clustering algorithm that partitions n observations into K distinct clusters by iteratively updating K centroid center-points until variance is minimized.",
+      "bn": "K-Means হলো একটি আনসুপারভাইজড ক্লাস্টারিং অ্যালগরিদম, যা লেবেলহীন ডেটাকে K সংখ্যক ক্লাস্টার বা দলে ভাগ করে এবং প্রতি দলের কেন্দ্রবিন্দু (Centroid) বারবার সমন্বয় করে ক্লাস্টারগুলোকে নিখুঁত করে।"
+    },
+    "detailedAnswer": {
+      "en": "Steps: 1) Initialize K random centroids; 2) Assign each sample to the nearest centroid; 3) Recompute centroid coordinates as cluster means; 4) Repeat until centroids stop shifting. The optimal K is selected using the Elbow Method or Silhouette Score.",
+      "bn": "ধাপসমূহ: ১) K সংখ্যক সেন্ট্রয়েড ধরা, ২) প্রতিটি পয়েন্টকে তার কাছের সেন্ট্রয়েডের ক্লাস্টারে নেওয়া, ৩) ক্লাস্টারের গড় নিয়ে নতুন সেন্ট্রয়েড তৈরি করা, ৪) সেন্ট্রয়েড পরিবর্তন না হওয়া পর্যন্ত পুনরাবৃত্তি করা। সেরা K সংখ্যা নির্ণয়ে এলবো মেথড ব্যবহৃত হয়।"
+    },
+    "example": {
+      "en": "Customer segmentation in retail: Partitioning 50,000 shoppers into 4 actionable personas based on purchase frequency and average basket spend.",
+      "bn": "সুপারশপের গ্রাহকদের কেনাকাটার ধরন অনুযায়ী ৩টি ক্লাস্টারে (বাজেট ক্রেতা, বিলাসী ক্রেতা, সাধারণ ক্রেতা) ভাগ করা।"
+    },
+    "relatedTopics": ["Unsupervised Learning", "PCA", "KNN"],
+    "recommendedLessonId": "l4-kmeans"
+  },
+  {
+    "id": "kb-train-test-split",
+    "topic": "Train/Test Split & Validation",
+    "keywords": ["train test split", "ট্রেন টেস্ট স্প্লিট", "cross validation", "ভ্যালিডেশন", "data leakage"],
+    "questionPatterns": [
+      "what is train test split",
+      "why do we split data",
+      "train test split ki",
+      "ট্রেন টেস্ট স্প্লিট কেন দরকার"
+    ],
+    "shortAnswer": {
+      "en": "Train/Test split separates your dataset into a training subset (typically 70-80%) to teach the model and a completely unseen testing subset (20-30%) to objectively evaluate real-world generalization performance.",
+      "bn": "ট্রেন/টেস্ট স্প্লিট হলো ডেটাসেটকে দুটি ভাগে ভাগ করা— একটি অংশ (৭০-৮০%) মডেলকে প্রশিক্ষণ দেওয়ার জন্য এবং বাকি অংশ (২০-৩০%) দিয়ে পরীক্ষা করার জন্য, যাতে মডেলটি নতুন ডেটায় কতটা নির্ভুল কাজ করছে তা যাচাই করা যায়।"
+    },
+    "detailedAnswer": {
+      "en": "Never evaluate your model on the same data it trained on; that only measures memorization, not learning! An intermediate validation set or K-Fold Cross-Validation is used for tuning hyperparameters without leaking test data.",
+      "bn": "পরীক্ষার ক্লাসে যে প্রশ্ন দিয়ে শেখানো হয়, পরীক্ষার খাতায় হুবহু সেই প্রশ্ন না দিয়ে একটু ঘুরিয়ে দিলে ছাত্রের আসল মেধা বোঝা যায়। তেমনি টেস্ট ডেটা মডেলের সামনে সম্পূর্ণ নতুন রাখা হয় ডেটা লিকেজ এড়াতে।"
+    },
+    "example": {
+      "en": "Training on 8,000 historical housing sales and strictly withholding 2,000 homes to test prediction accuracy.",
+      "bn": "১০,০০০ রোগীর ডেটার মধ্যে ৮,০০০ দিয়ে মডেলকে রোগ চেনা শেখানো এবং বাকি ২,০০০ দিয়ে পরীক্ষা করা।"
+    },
+    "relatedTopics": ["Cross-Validation", "Overfitting", "Data Leakage"],
+    "recommendedLessonId": "l5-train-test-split"
+  },
+  {
+    "id": "kb-confusion-matrix",
+    "topic": "Confusion Matrix & Evaluation Metrics",
+    "keywords": ["confusion matrix", "precision", "recall", "f1 score", "কনফিউশন ম্যাট্রিক্স", "প্রিসিশন", "রিকল"],
+    "questionPatterns": [
+      "what is confusion matrix",
+      "difference between precision and recall",
+      "what is f1 score",
+      "confusion matrix ki",
+      "প্রিসিশন এবং রিকল কি"
+    ],
+    "shortAnswer": {
+      "en": "A Confusion Matrix is a 2x2 table showing True Positives (TP), True Negatives (TN), False Positives (FP), and False Negatives (FN). From these, Precision, Recall, and F1 Score are computed to assess classification reliability.",
+      "bn": "কনফিউশন ম্যাট্রিক্স হলো এমন একটি টেবিল যা মডেলের সঠিক ও ভুল অনুমানগুলোকে (TP, TN, FP, FN) বিশদভাবে প্রদর্শন করে। এর মাধ্যমে প্রিসিশন, রিকল এবং F1 স্কোর হিসাব করা হয়।"
+    },
+    "detailedAnswer": {
+      "en": "Precision = TP / (TP + FP) (Quality of positive claims). Recall = TP / (TP + FN) (Quantity of actual positives captured). F1 Score = 2 * (Precision * Recall) / (Precision + Recall) (Harmonic mean balancing both, critical for imbalanced data).",
+      "bn": "প্রিসিশন (Precision) মানে মডেল যাদের পজিটিভ বলেছে তাদের মধ্যে আসলে কতজন সত্যি পজিটিভ। রিকল (Recall) মানে আসল সব পজিটিভদের মধ্যে মডেল কতজনকে সফলভাবে ধরতে পেরেছে। F1 Score হলো উভয়ের চমৎকার ভারসাম্য।"
+    },
+    "example": {
+      "en": "Cancer screening: High Recall is vital because missing an actual cancer patient (False Negative) is life-threatening, even if a few healthy patients undergo secondary tests (False Positive).",
+      "bn": "ক্যান্সার শনাক্তকরণে রিকল সর্বোচ্চ থাকা জরুরি, কারণ একজন আসল ক্যান্সার রোগীকে সুস্থ ভাবা (False Negative) মারাত্মক বিপর্যয় ডেকে আনতে পারে।"
+    },
+    "relatedTopics": ["ROC-AUC", "Logistic Regression", "Model Evaluation"],
+    "recommendedLessonId": "l5-confusion-matrix"
+  },
+  {
+    "id": "kb-gradient-descent",
+    "topic": "Gradient Descent (গ্রেডিয়েন্ট ডিসেন্ট)",
+    "keywords": ["gradient descent", "গ্রেডিয়েন্ট ডিসেন্ট", "optimization", "learning rate", "loss function"],
+    "questionPatterns": [
+      "what is gradient descent",
+      "how does gradient descent work",
+      "what is learning rate",
+      "gradient descent ki",
+      "গ্রেডিয়েন্ট ডিসেন্ট কি"
+    ],
+    "shortAnswer": {
+      "en": "Gradient Descent is an optimization algorithm that iteratively adjusts a model's parameters (weights) in the opposite direction of the loss function's gradient to find the lowest possible error (minimum loss).",
+      "bn": "গ্রেডিয়েন্ট ডিসেন্ট হলো মেশিন লার্নিং ও ডিপ লার্নিংয়ের প্রধান অপটিমাইজেশন অ্যালগরিদম, যা ভুলের মাত্রা (Loss) কমাতে ধাপে ধাপে প্যারামিটারগুলোর মান পরিবর্তন করে লস ফাংশনের সর্বনিম্ন উপত্যকায় পৌঁছায়।"
+    },
+    "detailedAnswer": {
+      "en": "Analogy: A blindfolded hiker walking down a foggy mountain into the lowest valley. The slope under their feet is the gradient; their step size is the learning rate (η). Weight update rule: W_new = W_old - η * ∇L.",
+      "bn": "সহজ রূপক: একজন পর্বতারোহী কুয়াশাচ্ছন্ন পাহাড়ে দাঁড়িয়ে আছেন এবং উপত্যকার সবচেয়ে নিচের বিন্দুতে নামতে চান। পায়ের নিচের ঢাল দেখে তিনি নিচের দিকে পা বাড়ান। এই প্রতি ধাপের আকারই হলো লার্নিং রেট (Learning Rate)।"
+    },
+    "example": {
+      "en": "Updating billions of neural network synaptic weights during backpropagation after calculating prediction errors on a batch of images.",
+      "bn": "নিউরাল নেটওয়ার্কের কোটি কোটি ওজন (Weights) প্রতি ইপকে ছবির ত্রুটি কমাতে স্বয়ংক্রিয়ভাবে আপডেট করা।"
+    },
+    "relatedTopics": ["Loss Functions", "Backpropagation", "Neural Networks"],
+    "recommendedLessonId": "l7-gradient-descent"
+  },
+  {
+    "id": "kb-neural-network",
+    "topic": "Neural Networks (নিউরাল নেটওয়ার্ক)",
+    "keywords": ["neural network", "deep learning", "নিউরাল নেটওয়ার্ক", "perceptron", "layers", "activation function"],
+    "questionPatterns": [
+      "what is a neural network",
+      "how do neural networks work",
+      "what is deep learning",
+      "neural network ki",
+      "নিউরাল নেটওয়ার্ক কি"
+    ],
+    "shortAnswer": {
+      "en": "A Neural Network is a computational architecture inspired by the human brain, composed of interconnected layers of artificial neurons that transform raw inputs into complex hierarchical features.",
+      "bn": "নিউরাল নেটওয়ার্ক হলো মানুষের মস্তিষ্কের নিউরনের কার্যপদ্ধতি দ্বারা অনুপ্রাণিত গাণিতিক কাঠামো, যেখানে ইনপুট লেয়ার, হিডেন লেয়ার এবং আউটপুট লেয়ারের মাধ্যমে জটিল প্যাটার্ন শেখা হয়।"
+    },
+    "detailedAnswer": {
+      "en": "Each neuron calculates a weighted sum of its inputs plus a bias: z = Σ(w_i * x_i) + b, and applies a non-linear activation function (e.g., ReLU, Sigmoid). Stacking multiple hidden layers enables Deep Learning to model intricate non-linear relationships.",
+      "bn": "প্রতিটি নিউরন তার ইনপুটের সাথে ওয়েট গুণ করে বায়াস যোগ করে: z = Σ(w * x) + b, এবং একটি নন-লিনিয়ার অ্যাক্টিভেশন ফাংশন (যেমন ReLU) দিয়ে ফলাফল পরবর্তী লেয়ারে পাঠায়।"
+    },
+    "example": {
+      "en": "Inputting raw pixel values of photos and having deep layers automatically learn edges, textures, eyes, and eventually complete human faces.",
+      "bn": "ছবির সাধারণ পিক্সেল থেকে চোখের ভ্রু, মুখাবয়ব ও শেষ পর্যন্ত সম্পূর্ণ মানুষের চেহারা চিনে নেওয়া।"
+    },
+    "relatedTopics": ["CNN", "Activation Functions", "Backpropagation"],
+    "recommendedLessonId": "l7-neural-networks"
+  },
+  {
+    "id": "kb-cnn",
+    "topic": "Convolutional Neural Networks (CNN)",
+    "keywords": ["cnn", "convolutional", "সিএনএন", "computer vision", "image processing", "pooling"],
+    "questionPatterns": [
+      "what is cnn",
+      "how does cnn work for images",
+      "cnn ki",
+      "সিএনএন কি এবং ছবিতে কেন ব্যবহৃত হয়"
+    ],
+    "shortAnswer": {
+      "en": "CNN (Convolutional Neural Network) is a specialized deep learning architecture designed for visual data that uses sliding convolutional filters to automatically detect spatial hierarchies of features like edges, textures, and shapes.",
+      "bn": "CNN হলো ছবি ও ভিজ্যুয়াল ডেটা বিশ্লেষণের জন্য বিশেষভাবে তৈরি নিউরাল নেটওয়ার্ক, যা ফিল্টার ও কনভলিউশনের মাধ্যমে ছবির ভেতরের স্থানিক বৈশিষ্ট্য (যেমন দাগ, কোণ, গঠন) নিজে থেকে শিখে নেয়।"
+    },
+    "detailedAnswer": {
+      "en": "Key layers: 1) Convolutional layers (slide small kernels across the image to generate feature maps); 2) Pooling layers (e.g., MaxPooling to downsample spatial size while preserving critical signals); 3) Fully connected dense layers for final classification.",
+      "bn": "সাধারণ নিউরাল নেটওয়ার্কে ছবির লাখ লাখ পিক্সেল দিলে প্যারামিটার সংখ্যা মাত্রাতিরিক্ত বেড়ে যায়। CNN ফিল্টারিং এবং ম্যাক্স পুলিংয়ের মাধ্যমে ছবির মূল বৈশিষ্ট্যগুলো রেখে সাইজ ছোট করে ফেলে নিখুঁত ফলাফল দেয়।"
+    },
+    "example": {
+      "en": "Smartphones recognizing your face to unlock the screen, or medical AI scanning chest X-rays to detect pneumonia.",
+      "bn": "স্মার্টফোনের ফেস আনলক এবং এক্স-রে স্ক্যান দেখে স্বয়ংক্রিয়ভাবে ফুসফুসের রোগ নির্ণয়।"
+    },
+    "relatedTopics": ["Neural Networks", "Computer Vision", "Deep Learning"],
+    "recommendedLessonId": "l8-computer-vision"
+  },
+  {
+    "id": "kb-rnn-lstm",
+    "topic": "RNN & LSTM (রিকারেন্ট নিউরাল নেটওয়ার্ক)",
+    "keywords": ["rnn", "lstm", "recurrent", "এলএসটিএম", "sequence", "time series", "text"],
+    "questionPatterns": [
+      "what is rnn and lstm",
+      "why use lstm over simple rnn",
+      "rnn lstm ki",
+      "এলএসটিএম কি"
+    ],
+    "shortAnswer": {
+      "en": "RNNs process sequential data (like sentences or time-series) by retaining internal hidden memory across time steps. LSTMs (Long Short-Term Memory) solve the vanishing gradient problem with gating cells that remember long-term context.",
+      "bn": "RNN ক্রমান্বয়ে আসা সিকোয়েন্সিয়াল ডেটা (যেমন লেখা বা সময়ের সাথে পরিবর্তিত ডেটা) বুঝতে আগের মেমরি মনে রাখে। আর LSTM গেটিং মেকানিজমের মাধ্যমে দীর্ঘমেয়াদি স্মৃতি নিখুঁতভাবে মনে রাখতে পারে।"
+    },
+    "detailedAnswer": {
+      "en": "Traditional neural networks assume inputs are independent. In language, each word depends heavily on previous words. Simple RNNs struggle with long-term memory due to exploding/vanishing gradients. LSTMs introduce Input, Forget, and Output Gates to regulate memory flow.",
+      "bn": "একটি বাক্যের পরবর্তী শব্দ অনুমান করতে আগের অনেকগুলো শব্দের অর্থ মনে রাখতে হয়। সাধারণ RNN বেশি পুরনো কথা ভুলে যায়, তাই LSTM-এ ফরগেট গেট ও ইনপুট গেট যোগ করে দরকারি তথ্য অনেকক্ষণ সংরক্ষিত রাখা হয়।"
+    },
+    "example": {
+      "en": "Stock price forecasting day-by-day, and phone keyboards predicting your next word as you type.",
+      "bn": "মোবাইলের কিবোর্ডে পরবর্তী শব্দ অনুমান করা এবং আগামী সপ্তাহের শেয়ার বাজারের ট্রেন্ড পূর্বাভাস।"
+    },
+    "relatedTopics": ["Transformers", "NLP", "Time Series"],
+    "recommendedLessonId": "l7-rnn-lstm"
+  },
+  {
+    "id": "kb-transformer",
+    "topic": "Transformers & Attention Mechanism",
+    "keywords": ["transformer", "transformers", "ট্রান্সফরমার", "attention", "self-attention", "llm", "gpt"],
+    "questionPatterns": [
+      "what is transformer in ml",
+      "how does attention mechanism work",
+      "what powers chatgpt",
+      "transformer ki",
+      "ট্রান্সফরমার আর্কিটেকচার কি"
+    ],
+    "shortAnswer": {
+      "en": "The Transformer is a breakthrough deep learning architecture introduced in 'Attention Is All You Need' (2017) that discards recurrence in favor of parallel Self-Attention, powering modern Large Language Models like GPT and Gemini.",
+      "bn": "ট্রান্সফরমার হলো ২০১৭ সালে উদ্ভাবিত একটি যুগান্তকারী ডিপ লার্নিং আর্কিটেকচার, যা সেলফ-অ্যাটেনশন মেকানিজম ব্যবহার করে পুরো বাক্যের সব শব্দের মধ্যকার সম্পর্ক একসাথে সমান্তরালভাবে প্রসেস করে। এটি বর্তমানের চ্যাটজিপিটি ও জেমিনির মতো এলএলএমের মূল ভিত্তি।"
+    },
+    "detailedAnswer": {
+      "en": "While RNNs read text one token at a time sequentially (slow), Transformers process entire documents simultaneously. Self-attention allows every word to look at every other word and compute contextual affinity weights (Query, Key, Value vectors).",
+      "bn": "আগে এক শব্দ এক শব্দ করে পড়তে গিয়ে অনেক দেরি হতো। ট্রান্সফরমার এক নজরে পুরো পাতা পড়ে ফেলে এবং সেলফ-অ্যাটেনশনের মাধ্যমে বুঝে নেয় কোন শব্দের সাথে কোন শব্দের গভীর সম্পর্ক রয়েছে।"
+    },
+    "example": {
+      "en": "Understanding the word 'bank' in 'river bank' vs 'money bank' based on surrounding tokens, and generating fluid essays or code.",
+      "bn": "একই শব্দ 'ব্যাংক' নদীর তীর না টাকার ব্যাংক, তা আশেপাশের শব্দের সাথে অ্যাটেনশন সম্পর্ক তৈরি করে নির্ভুলভাবে অনুধাবন করা।"
+    },
+    "relatedTopics": ["NLP", "RNN & LSTM", "Deep Learning"],
+    "recommendedLessonId": "l8-nlp"
+  },
+  {
+    "id": "kb-feature-engineering",
+    "topic": "Feature Engineering & Preprocessing",
+    "keywords": ["feature engineering", "ফিচার ইঞ্জিনিয়ারিং", "data preprocessing", "imputation", "scaling", "one-hot"],
+    "questionPatterns": [
+      "what is feature engineering",
+      "how to preprocess data for ml",
+      "feature engineering ki",
+      "ফিচার ইঞ্জিনিয়ারিং কি"
+    ],
+    "shortAnswer": {
+      "en": "Feature Engineering is the art of transforming raw data into informative input variables (features) that highlight the underlying problem structure, enabling machine learning algorithms to learn with maximum accuracy.",
+      "bn": "ফিচার ইঞ্জিনিয়ারিং হলো কাঁচা অগোছালো ডেটাকে এমন অর্থপূর্ণ বৈশিষ্ট্যে রূপান্তর করা, যাতে মেশিন লার্নিং অ্যালগরিদম সবচেয়ে সহজে এবং নিখুঁতভাবে ডেটার আসল প্যাটার্ন শিখতে পারে।"
+    },
+    "detailedAnswer": {
+      "en": "Andrew Ng famously noted: 'Applied machine learning is basically feature engineering'. Common tasks include: Handling missing values, One-Hot Encoding categorical variables, Standard/MinMax scaling, log transforms for skewed data, and creating interaction ratios.",
+      "bn": "প্রবাদ আছে: 'ভালো ডেটা এবং সেরা ফিচার সাধারণ অ্যালগরিদমকেও অসাধারণ বানিয়ে দেয়'। এর মধ্যে পড়ে মিসিং ভ্যালু পূরণ, টেক্সট বা ক্যাটাগরিকে ওয়ান-হট এনকোডিংয়ে সংখ্যায় রূপান্তর, এবং স্কেলিং করা।"
+    },
+    "example": {
+      "en": "From a customer's timestamp '2025-10-12 23:45', extracting new features: 'Hour_of_Day = 23', 'Is_Weekend = 1', and 'Is_Late_Night = 1'.",
+      "bn": "জন্মতারিখ থেকে সরাসরি তারিখ ব্যবহার না করে 'বর্তমান বয়স' নামের নতুন ফিচার তৈরি করা।"
+    },
+    "relatedTopics": ["Data Analysis", "Pandas", "Pipelines"],
+    "recommendedLessonId": "l3-feature-engineering"
+  },
+  {
+    "id": "kb-pandas-numpy",
+    "topic": "NumPy & Pandas for Machine Learning",
+    "keywords": ["numpy", "pandas", "প্যান্ডাস", "নামপাই", "dataframe", "arrays", "data manipulation"],
+    "questionPatterns": [
+      "why use numpy and pandas",
+      "what is dataframe",
+      "numpy vs python list",
+      "numpy pandas ki",
+      "নামপাই এবং প্যান্ডাস কেন দরকার"
+    ],
+    "shortAnswer": {
+      "en": "NumPy provides ultra-fast N-dimensional vector/matrix arrays written in C, while Pandas offers intuitive DataFrames and Series for structured tabular data manipulation, filtering, and statistical aggregation.",
+      "bn": "NumPy হলো সি ভাষায় অপটিমাইজড সুপার-ফাস্ট ম্যাট্রিক্স ও অ্যারে কম্পিউটেশনের লাইব্রেরি। আর Pandas হলো এক্সেল বা এসকিউএল টেবিলের মতো ডেটাফ্রেম নিয়ে কাজ করার সবচেয়ে জনপ্রিয় ডেটা সায়েন্স লাইব্রেরি।"
+    },
+    "detailedAnswer": {
+      "en": "Python native lists store pointers to heterogeneous objects and are slow for linear algebra. NumPy arrays store contiguous blocks of memory, executing vectorized operations 50x to 100x faster. Pandas builds on top of NumPy, adding labeled columns and missing data handling.",
+      "bn": "সাধারণ পাইথন লিস্টের তুলনায় নামপাই অ্যারে ৫০ থেকে ১০০ গুণ দ্রুত কাজ করে। প্যান্ডাস সেই ভিত্তির ওপর কলামের নামযুক্ত টেবিল (DataFrame), গ্রুপিং, ফিল্টারিং ও ক্লিন করার অতুলনীয় সুবিধা প্রদান করে।"
+    },
+    "example": {
+      "en": "Loading a 1-million row CSV file with pd.read_csv() and normalizing all price values instantly in one line: df['price'] = (df['price'] - df['price'].mean()) / df['price'].std().",
+      "bn": "লাখ লাখ রো-এর ডেটাসেট মাত্র এক লাইনে ফিল্টার বা গড় হিসাব করা: df[df['age'] > 25]['salary'].mean()."
+    },
+    "relatedTopics": ["Python for ML", "Data Cleaning", "Feature Engineering"],
+    "recommendedLessonId": "l3-pandas"
+  },
+  {
+    "id": "kb-model-deployment",
+    "topic": "Model Deployment & MLOps",
+    "keywords": ["model deployment", "mlops", "মডেল ডিপ্লয়মেন্ট", "fastapi", "docker", "pickle", "joblib"],
+    "questionPatterns": [
+      "how to deploy an ml model",
+      "what is mlops",
+      "fastapi for ml",
+      "model deployment ki",
+      "মডেল কিভাবে সার্ভারে ডিপ্লয় করে"
+    ],
+    "shortAnswer": {
+      "en": "Model deployment takes a trained ML model out of a Jupyter Notebook and embeds it into a production environment (such as a REST API or microservice) where live users and applications can query it in real time.",
+      "bn": "মডেল ডিপ্লয়মেন্ট হলো জুপিটার নোটবুকে তৈরি করা মডেলকে সেভ করে এমন একটি প্রোডাকশন সার্ভারে (যেমন FastAPI ও Docker) চালু করা, যাতে যেকোনো ওয়েবসাইট বা মোবাইল অ্যাপ লাইভ ডেটা পাঠিয়ে ফলাফল পেতে পারে।"
+    },
+    "detailedAnswer": {
+      "en": "Steps: 1) Serialize model using joblib.dump(model, 'model.pkl'); 2) Create a REST API using FastAPI with a /predict endpoint; 3) Containerize the environment using Docker; 4) Deploy to cloud platforms (Cloud Run, AWS, GCP); 5) Monitor for Data Drift and Model Drift over time.",
+      "bn": "প্রক্রিয়া: ১) জবলাইব দিয়ে মডেল সংরক্ষণ করা, ২) FastAPI দিয়ে একটি ওয়েব API তৈরি করা, ৩) ডকার (Docker) দিয়ে কন্টেইনারাইজ করা, ৪) ক্লাউড সার্ভারে হোস্ট করা, এবং ৫) সময়ের সাথে সাথে ডেটার পরিবর্তন (Data Drift) পর্যবেক্ষণ করা।"
+    },
+    "example": {
+      "en": "A banking mobile app sending JSON payload of loan application to an ML API endpoint and receiving instant approval probability in 40ms.",
+      "bn": "মোবাইল ব্যাংকিং অ্যাপ থেকে লেনদেনের তথ্য এপিআই-তে পাঠানো এবং ৫০ মিলিসেকেন্ডে সেটি ফ্রড কি না তা জানা।"
+    },
+    "relatedTopics": ["MLOps Fundamentals", "Docker Basics", "FastAPI"],
+    "recommendedLessonId": "l9-fastapi"
+  }
+]
